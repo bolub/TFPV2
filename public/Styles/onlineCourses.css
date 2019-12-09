@@ -1,0 +1,9 @@
+header{
+    background-image: url('/Images/test.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header{
+    cursor: pointer;
+}

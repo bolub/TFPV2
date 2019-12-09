@@ -1,0 +1,67 @@
+body{
+	font-family: 'Rokkitt', serif;
+	color:#4A5568;
+}
+
+h1 h2 h3 h4 h5 h6{
+	font-weight: 900;
+	color: #2D3748;
+}
+
+.linear-gradient{
+  background: -webkit-linear-gradient(#F79831, #EBBF2F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.forceDark{
+	color:#4A5568;
+}
+
+.forceDark:hover{
+	color:#4A5568;
+}
+
+.customBtnBackgground{
+	background: linear-gradient(90deg, #F79831 0%, #EBBF2F 100%);
+}
+
+img{
+	object-fit: cover;
+}
+
+.imgHeight{
+	height: 400px;
+}
+
+/* a:hover{
+	text-decoration: none;
+} */
+
+.card{
+	transition: all .1s;
+}
+
+.card:hover{
+	transform: translateY(-4px);
+}
+
+.nav-link{
+	font-size: 1.12em;
+}
+
+.slick-slide{
+	height: auto;
+}
+
+.card-text{
+	font-size: 1.2em;
+}
+
+.courseBtnBgColor{
+	background: #FBD38D;
+}
+
+.courseBtnTextColor{
+	color:#F79831
+}
