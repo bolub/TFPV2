@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/theFashionSchool">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item dropdown mx-md-4">
@@ -41,7 +41,7 @@
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/onlineCourses">Online courses</a>
-                            <a class="dropdown-item" href="/onsiteCoursess">Onsite courses</a>
+                            <a class="dropdown-item" href="/onsiteCourses">Onsite courses</a>
                         </div>
                     </li>
 
@@ -56,14 +56,10 @@
                     </li>
 
                     <li class="nav-item mx-md-4">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
                     </li>
 
-                    <li class="nav-item ml-md-4">
+                    <li class="nav-item">
                         <a class="nav-link btn btn-outline-warning px-3 linear-gradient" href="#">
                             Login
                         </a>
@@ -92,73 +88,18 @@
         <section class="my-4 py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
+                    <% Courses.map(course => { %>
+                    <div class="col-md-4 mt-4">
+                        <a href="/coursePage/<%= course.id  %>" class="card h-100 shadow forceDark border-0">
                             <img class="card-img-top img-fluid" style="height:300px" src="Images/flatCutting.jpg"
                                 alt="tfp-image">
                             <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Flat Cutting/Free Hand</h4>
-                                <p class="card-text">N50,000</p>
+                                <h4 class="card-title lead font-weight-bolder"><%= course.Title %></h4>
+                                <p class="card-text"><%= course.Fee %></p>
                             </div>
                         </a>
                     </div>
-
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
-                            <img class="card-img-top img-fluid" style="height:300px" src="Images/Pattern.jpg"
-                                alt="tfp-image">
-                            <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Pattern Drafting</h4>
-                                <p class="card-text">N150,000</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
-                            <img class="card-img-top img-fluid" style="height:300px" src="Images/Full.jpg"
-                                alt="tfp-image">
-                            <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Full Fashion Course</h4>
-                                <p class="card-text">N450,000</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
-                            <img class="card-img-top img-fluid" style="height:300px" src="Images/flatCutting.jpg"
-                                alt="tfp-image">
-                            <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Flat Cutting/Free Hand</h4>
-                                <p class="card-text">N50,000</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
-                            <img class="card-img-top img-fluid" style="height:300px" src="Images/Pattern.jpg"
-                                alt="tfp-image">
-                            <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Pattern Drafting</h4>
-                                <p class="card-text">N150,000</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="#" class="card h-100 shadow forceDark border-0">
-                            <img class="card-img-top img-fluid" style="height:300px" src="Images/Full.jpg"
-                                alt="tfp-image">
-                            <div class="card-body">
-                                <h4 class="card-title lead font-weight-bolder">Full Fashion Course</h4>
-                                <p class="card-text">N450,000</p>
-                            </div>
-                        </a>
-                    </div>
+                    <% }) %>
                 </div>
             </div>
         </section>

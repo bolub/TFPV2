@@ -7,3 +7,17 @@ header{
 .card-header{
     cursor: pointer;
 }
+
+.headerCard{
+    margin-bottom: -130px;
+}
+
+@media(max-width:440px){
+    .onlineCourseHeading{
+        font-size: 2rem;
+    }
+
+    .onlineCourseSub{
+        font-size: 1.25rem;
+    }
+}

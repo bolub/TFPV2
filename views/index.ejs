@@ -1,417 +1,103 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="name" content="content">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tolumi The Fashion People</title>
-		<link href="https://fonts.googleapis.com/css?family=Rokkitt:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="Libraries/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="Libraries/slick/slick.css" />
-		<link rel="stylesheet" type="text/css" href="Libraries/slick/slick-theme.css" />
-		<link rel="stylesheet" href="Styles/index.css">
-	</head>
 
-	<body>
-		<nav role="navigation" class="navbar navbar-expand-lg navbar-light bg-white">
-			<div class="container">
-				<a class="navbar-brand" href="/">
-					<img class="img-fluid" src="Images/Logo.jpg" width="163px" />
-				</a>
-		
-				<button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-		
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-		
-						<li class="nav-item dropdown mx-md-4">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Courses
-							</a>
-		
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="/onlineCourses">Online courses</a>
-								<a class="dropdown-item" href="">Onsite courses</a>
-							</div>
-						</li>
-		
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Brands
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">TFP Accessories</a>
-								<a class="dropdown-item" href="#">TFP Bridals</a>
-						</li>
-		
-						<li class="nav-item mx-md-4">
-							<a class="nav-link" href="#">Gallery</a>
-						</li>
-		
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact us</a>
-						</li>
-		
-						<li class="nav-item ml-md-4">
-							<a class="nav-link btn btn-outline-warning px-3 linear-gradient" href="#">
-								Login
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="name" content="content">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolumi The Fashion People</title>
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
 
-		<header role="heading" class="my-5 py-4">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 text-center text-md-left">
-						<h1 class="mt-5">
-							Welcome to Tolumi The Fashion People
-						</h1>
+<body>
 
-						<p class="lead mb-5">The Number one place to become a full fledged fashion designer</p>
+    <header role="heading" class="my-5">
+        <div class="container text-center">
+            <img class="img-fluid" src="Images/Logo.jpg" width="163px" />
+        </div>
+    </header>
 
-						<button class="btn btn-warning customBtnBackgground rounded-sm btn-lg text-white px-5">
-							Join us now
-							<img src="Icons/arrow-right.svg" class="img-fluid" />
-						</button>
-					</div>
+    <main role="main">
+        <div class="container">
 
-					<div class="col-md-7">
-							<div class="row">
-								<div class="col-md-6 mt-5 mt-md-0">
-									<img src="Images/Advanced-2.png" style="height:350px" class="img-fluid w-100 rounded border" alt="tfp-image">
-								</div>
-							
-								<div class="col-md-6 mt-5 mt-md-0">
-									<img src="Images/Online.jpeg" style="height:350px" class="img-fluid w-100 rounded ml-md-5 border" alt="tfp-image">
-								</div>
-							</div>
-						
-					</div>
-				</div>
-			</div>
-		</header>
+            <div class="mb-4">
+                <h1 class="text-center h2 mb-0">We're the fashion people!</h1>
+                <p class="lead text-center font-weight-bold">Which of these would you like to do?</p>
+            </div>
 
-		<main role="main">
-			<!-- About us Section -->
-			<section class="mt-5 py-5">
-				<div class="container">
-					<h2 class="text-center mt-5 linear-gradient">About us</h2>
-					
-					<div class="row my-5">
-						<div class="col-sm-6">
-							<img src="Images/basic2.png" alt="tfp-image" class="img-fluid rounded imgHeight w-100 border">
-						</div>
-					
-						<div class="col-sm-6 my-auto">
-							<p class="lead mt-5 mt-sm-0">
-								We’re a learning institution that focuses on formal teaching of fashion skills and knowledge to aspiring
-								fashion
-								designers.
-							</p>
+            <div class="row">
+                <!-- Fashion school -->
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="/theFashionSchool" class="forceDark decorationNone">
+                        <div class="cardborder-0 rounded">
+                            <img class="card-img-top rounded" src="Images/4.png" alt="Fashion school">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-medium">The Fashion School</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-							<p class="lead mt-4">
-								We are passionate about grooming creative talents to be professionals in the industry.
-							</p>
-						</div>
-					</div>
+               
+                <!-- Ready to wear -->
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                     <a class="forceDark decorationNone" href="https://www.instagram.com/tolumitfp/" target="_blank">
+                    <div class="cardborder-0 rounded">
+                        <img class="card-img-top rounded" src="Images/1.png" alt="Ready to wear">
+                        <div class="card-body text-center">
+                            <h5 class="card-title font-weight-medium">Ready to wear</h5>
+                        </div>
+                    </div>
+                    </a>
+                </div>
 
-					<div class="mt-sm-5">&nbsp;</div>
-					<div class="mt-sm-5">&nbsp;</div>
+               
+                <!-- Short Fabrics -->
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                     <a class="forceDark decorationNone" href="https://www.instagram.com/fabricsbytolumi/" target="_blank">
+                    <div class="cardborder-0 rounded">
+                        <img class="card-img-top rounded" src="Images/2.png" alt="Fabrics">
+                        <div class="card-body text-center">
+                            <h5 class="card-title font-weight-medium">Short Fabrics</h5>
+                        </div>
+                    </div>
+                    </a>
+                </div>
 
-					<div class="row">
-						<div class="col-sm-6 order-sm-2">
-							<img src="Images/Advanced-2.png" alt="tfp-image" class="img-fluid rounded imgHeight w-100 border">
-						</div>
-					
-						<div class="col-sm-6 my-auto order-sm-1">
-							<p class="lead mt-5 mt-sm-0">
-								The school started in April, 2010 and has trained over 250 students on full time classes and over 2,000 students on
-								short courses as a facilitator for the National Youth Service Corps (NYSC) of Nigeria, West Africa.
- 							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<!-- Courses Section -->
-			<section class="mt-5 py-5">
-				<div class="container">
-					<h2 class="text-center mt-5 linear-gradient">Our Courses</h2>
+               
 
-					<!-- Online Courses -->
-					<div id="onlineCourses" class="mb-5">
-						<div class="heading mt-4 mt-md-0">
-							<div class="d-flex justify-content-between pb-0">
-								<h3 class="lead font-weight-bold">Online Courses</h3>
-						
-								<a href="/onlineCourses" class="text h-100 forceDark">View all</a>
-							</div>
-						
-							<hr style="width:140px" class="border-warning m-0 p-0" />
-							<hr class="w-100 m-0 p-0" />
-						</div>
-						
-						<p class="lead my-4">
-							Our online classes are taught to be very simple and easy for each student to understand and follow properly. We know
-							and
-							understand that each student’s need is different and we put all the considerations we are aware of to make the best
-							of
-							each lesson.
-						</p>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                     <a class="forceDark decorationNone" href="https://www.instagram.com/accessoriesbytolumi/" target="_blank">
+                    <div class="cardborder-0 rounded">
+                        <img class="card-img-top rounded" src="Images/3.png" alt="Accessories">
+                        <div class="card-body text-center">
+                            <h5 class="card-title font-weight-medium">Fashion accessories</h5>
+                        </div>
+                    </div>
+                    </a>
+                </div>
 
-						<div class="row mt-5">
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/flatCutting.jpg" alt="tfp-image">
-									
-									<div class="card-body mb-3">
-										<h4 class="card-title lead font-weight-bolder">Flat Cutting/Free Hand</h4>
-										<p class="card-text">N50,000</p>
-										
-									</div>
+               
 
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-lg-5">
+                     <a class="forceDark decorationNone" href="#" target="_blank">
+                    <div class="cardborder-0 rounded">
+                        <img class="card-img-top rounded" src="Images/Bridal.jpeg" alt="Ever and after">
+                        <div class="card-body text-center">
+                            <h5 class="card-title font-weight-medium">Ever and after bridals</h5>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/Pattern.jpg" alt="tfp-image">
-									
-									<div class="card-body">
-										<h4 class="card-title lead font-weight-bolder">Pattern Drafting</h4>
-										<p class="card-text">N150,000</p>
-									</div>
 
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
-									
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div href="#" class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/Full.jpg" alt="tfp-image">
-									
-									<div class="card-body">
-										<h4 class="card-title lead font-weight-bolder">Full Fashion Course</h4>
-										<p class="card-text">N450,000</p>
-									</div>
+    <script src="Libraries/bootstrap/jquery.min.js"></script>
+    <script src="Libraries/bootstrap/bootstrap.min.js"></script>
+</body>
 
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
-									
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Onsite Courses -->
-					<div id="onsiteCourses" style="margin-top: 180px;">
-						<div class="heading">
-							<div class="d-flex justify-content-between pb-0">
-								<h3 class="lead font-weight-bold">Onsite Courses</h3>
-					
-								<a href="#" class="text h-100 forceDark">View all</a>
-							</div>
-					
-							<hr style="width:140px" class="border-warning m-0 p-0" />
-							<hr class="w-100 m-0 p-0" />
-						</div>
-					
-						<p class="lead my-4">
-							All our onsite courses are available in both our Ibadan and Abuja branches.
-						</p>
-					
-						<div class="row mt-4">
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/basic1.png" alt="tfp-image">
-									
-									<div class="card-body">
-										<h4 class="card-title lead font-weight-bolder">Basic 1 Fashion Program</h4>
-										<p class="card-text">N50,000</p>
-									</div>
-
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
-									
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-					
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/Pattern.jpg" alt="tfp-image">
-									
-									<div class="card-body">
-										<h4 class="card-title lead font-weight-bolder">Pattern Drafting</h4>
-										<p class="card-text">N150,000</p>
-									</div>
-
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
-									
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-					
-							<div class="col-md-6 col-lg-4 mt-4">
-								<div class="card h-100 shadow forceDark border-0">
-									<img class="card-img-top img-fluid" style="height:300px" src="Images/Bridal.jpeg" alt="tfp-image">
-									
-									<div class="card-body">
-										<h4 class="card-title lead font-weight-bolder">Complete Bridal Course</h4>
-										<p class="card-text">N450,000</p>
-									</div>
-
-									<div class="card-footer">
-										<div class="d-flex justify-content-end">
-											<a href="#" class="forceDark my-auto mr-3">Read more</a>
-									
-											<button class="btn courseBtnBgColor">
-												<span class="font-weight-bolder courseBtnTextColor">Sign up</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- Testimonial Section -->
-			<section class="mt-5 py-5">
-				<div class="container">
-					<h2 class="text-center mt-5 linear-gradient">Testimonials</h2>
-
-					<div class="slickClass mt-5">
-						<div class="container mb-5">
-							<div class="row justify-content-center">
-								<div class="col-7 text-center col-sm-5 col-md-7 p-0 p-lg-3 col-lg-5">
-									<img class="img-fluid w-100 rounded-circle" style="height: 200px;" src="Images/basic2.png" />
-								</div>
-						
-								<div class="col-lg-7 my-auto text-center text-lg-left">
-									<h4 class="font-weight-bold mt-4 mt-lg-0">Tope Alabi</h4>
-									<p class="lead">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-									</p>
-								</div>
-						
-							</div>
-						</div>
-
-						<div class="container mb-5">
-							<div class="row justify-content-center">
-								<div class="col-7 col-sm-5 col-md-7 p-0 p-lg-3 col-lg-5">
-									<img class="img-fluid w-100 rounded-circle" style="height: 200px;" src="Images/basic2.png" />
-								</div>
-						
-								<div class="col-lg-7 my-auto text-center text-lg-left">
-									<h4 class="font-weight-bold mt-4 mt-lg-0">Tope Alabi</h4>
-									<p class="lead">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-									</p>
-								</div>
-						
-							</div>
-						</div>
-
-						<div class="container mb-5">
-							<div class="row justify-content-center">
-								<div class="col-7 col-sm-5 col-md-7 p-0 p-lg-3 col-lg-5">
-									<img class="img-fluid w-100 rounded-circle" style="height: 200px;" src="Images/basic2.png" />
-								</div>
-						
-								<div class="col-lg-7 my-auto text-center text-lg-left">
-									<h4 class="font-weight-bold mt-4 mt-lg-0">Tope Alabi</h4>
-									<p class="lead">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-									</p>
-								</div>
-						
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-	
-	
-		<script src="Libraries/bootstrap/jquery.min.js"></script>
-		<script src="Libraries/bootstrap/bootstrap.min.js" ></script>
-
-		<script type="text/javascript" src="Libraries/slick/slick.min.js"></script>
-
-		<script type="text/javascript">
-			$(document).ready(function () {
-				$('.slickClass').slick({
-					infinite: true,
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					dots: true,
-					arrows: true,
-					responsive: [
-						{
-							breakpoint: 760,
-							settings: {
-								slidesToShow: 1,
-								
-							}
-						},
-						// {
-						// 	breakpoint: 480,
-						// 	settings: {
-						// 		slidesToShow: 1,
-								
-						// 	}
-						// }
-					]
-		      });
-		    });
-		</script>
-	</body>
 </html>
