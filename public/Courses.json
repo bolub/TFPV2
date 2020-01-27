@@ -1,0 +1,290 @@
+[
+    {
+        "id": "basic1",
+        "Title": "Basic 1 Fashion Program",
+        "SubTitle": "From Pattern drafting, to Fashion illustration and Sketching, to Flat cutting methods, students will be exposed to all methods of cutting and presentation.",
+        "Fee": "₦170,000",
+        "Duration": "6 months",
+        "Difficulty": "Beginner",
+        "about": "Empty",
+        "LearnOne": [
+            "Trousers",
+            "Jump suits",
+            "Formal office wear",
+            "Aso ebi",
+            "All skirts"
+        ],
+
+        "LearnTwo":[
+            "All blouses",
+            "Dart manipulation methods",
+            "Fabric manipulation methods",
+            "Professional sewing methods"
+        ],
+
+        "ClassDetails": [],
+
+        "Expectation": [
+            "Students will have at least 1 graduate photoshoot and participate in fashion shows.",
+            "Students would have developed a professional portfolio and to be able to set up a standard fashion brand.",
+            "A Diploma certificate will be awarded at the end of the course"
+        ],
+        "paymentPlans": {
+            "Full": "150,000",
+            "Installment": {
+                "fullPayment": "170,000",
+                "paymentLevels":[
+                    {
+                        "title": "1st payment",
+                        "amount": "₦100,000",
+                        "duration": "Start of the course"
+                    },
+
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦70,000",
+                        "duration": "After 5 weeks"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "id": "basic2",
+        "Title": "Basic II Fashion Program",
+        "SubTitle": "From Pattern drafting, to Fashion illustration and Sketching, to Flat cutting methods, students will be exposed to all methods of cutting and presentation.",
+        "Fee": "₦250,000",
+        "Duration": "6 months",
+        "Difficulty": "Beginner",
+        "about": "Empty",
+        "LearnOne": [
+            "Trousers",
+            "Jump suits",
+            "Formal office wear",
+            "Aso ebi",
+            "All skirts"
+        ],
+        "LearnTwo": [
+            "All dresses",
+            "All blouses",
+            "Dart manipulation methods",
+            "Fabric manipulation methods",
+            "Professional sewing methods"
+        ],
+
+        "ClassDetails": [],
+
+        "Expectation": [
+            "Students will have at least 1 graduate photoshoot and participate in fashion shows.",
+            "Students would have developed a professional portfolio and to be able to set up a standard fashion brand.",
+            "A Diploma certificate will be awarded at the end of the course"
+        ],
+        "paymentPlans": {
+            "Full": "285,000",
+            "Installment": {
+                "fullPayment": "285,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦150,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦135,000",
+                        "duration": "first 4 months of training"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "id": "entryLevelPro",
+        "Title": "Entry Level PRO",
+        "SubTitle": "From Pattern drafting, to Fashion illustration and Sketching, to Flat cutting methods, students will be exposed to all methods of cutting and presentation.",
+        "Fee": "₦90,000",
+        "Duration": "3 months",
+        "Difficulty": "Beginner",
+        "about": "Empty",
+        "LearnOne": [
+            "Iro and buba",
+            "sewing methods and machine usage",
+            "all types of kaftans",
+            "skirt bodice pattern",
+            "smocked outfits"
+        ],
+        "LearnTwo": [
+            "fashion drawing",
+            "fashion theory classes",
+            "flat cutting classes amongst other topics."
+        ],
+        "Expectation": [
+            "Students will be able to make simple outfits for themselves and their close friends and family.",
+            "A certificate will be awarded at the end of the course"
+        ],
+
+        "ClassDetails":[
+            "This course is recommended for those who will like to learn sewing for personal purposes.",
+            "Classes are hold <span class='font-weight-bold'>3 times a week</span>. Weekend class option is available."
+        ],
+
+        "paymentPlans": {
+            "Full": "90,000",
+            "Installment": {
+                "fullPayment": "110,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦65,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦45,000",
+                        "duration": "first 5 weeks of training"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "id": "patternDrafting",
+        "Title": "Pattern Drafting ",
+        "SubTitle": "Pattern Drafting teaches a 3-4 dimensional way to cut and gives the most perfect fit! Each piece is constructed according to the body shape of the individual and follows every curve needed to be accentuated and flattered.",
+        "Fee": "₦100,000",
+        "Duration": "3 months",
+        "Difficulty": "Beginner",
+        "about": "Pattern Drafting is the international standard for cutting, in either Coutoure, Bespoke Ready to wear or mass production. Designs and ideas are more easily incorporated and manipulated to your creations with pattern drafting.",
+        "LearnOne": [],
+        "LearnTwo": [],
+        "Expectation": [],
+        "ClassDetails": [
+            "This course is recommended for those who want to get beyond home sewing and become professionals, or for those who are in love with the most perfect fit.",
+            "This class only teaches how to cut, therefore you must have a good knowledge in sewing and sewing methods.",
+            "You are not required to know how to cut, the class teaches all you need to know about constructing the pattern to fit the individuals and also cutting the fabrics and lining if applicable.",
+            "Classes hold twice a week."
+        ],
+        "paymentPlans": {
+            "Full": "100,000",
+            "Installment": {
+                "fullPayment": "115,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦70,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦45,000",
+                        "duration": "first 5 weeks of training"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "id": "advancedFinishing",
+        "Title": "Advanced/Finishing Course",
+        "SubTitle": "From Basic Pattern drafting Methods, to Basic Fashion Sketching, to Flat cutting methods, students will be exposed to all methods of cutting and presentation.",
+        "Fee": "₦120,000",
+        "Duration": "13 weeks",
+        "Difficulty": "Advanced",
+        "about": "empty",
+        "LearnOne": [
+            "Trousers",
+            "Jump suits",
+            "Jackets and Shirts",
+            "Formal office wear",
+            "Aso ebi",
+            "All skirts"
+        ],
+        "LearnTwo": [
+            "All blouses",
+            "All dresses",
+            "Evening dresses",
+            "Dart manipulation methods",
+            "Fabric manipulation methods",
+            "Professional sewing methods"
+        ],
+        "Expectation": [
+            "Students will have at least 1 graduate photoshoot and participate in fashion shows.",
+            "At the end of the course, students are expected to have developed a professional portfolio and be able to rebrand their fashion businesses.",
+            "A certificate will also be awarded"
+        ],
+        "ClassDetails": [
+            "This course is highly recommended for students who already have fashion training but are looking for more to build standard fashion brands.",
+            "Classes hold twice a week."
+        ],
+        "paymentPlans": {
+            "Full": "120,000",
+            "Installment": {
+                "fullPayment": "145,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦85,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦60,000",
+                        "duration": "first 5 weeks of training"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "id": "completeBridal",
+        "Title": "Complete Bridal Course",
+        "SubTitle": "From Pattern drafting, to Fashion illustration and Sketching, to Flat cutting methods, students will be exposed to all methods of cutting and presentation for bridal wears.",
+        "Fee": "₦110,000",
+        "Duration": "3 months",
+        "Difficulty": "Advanced",
+        "about": "empty",
+        "LearnOne": [
+            "Understanding body silhouettes",
+            "Bridal consultations",
+            "Bridal fittings",
+            "Formal office wear",
+            "Bridal inner wear"
+        ],
+        "LearnTwo": [
+            "Bridal robes",
+            "Beading",
+            "Embellishments and up to 6 wedding dress styles"
+        ],
+        "Expectation": [
+            "Students will be involved in the making of the different wedding dresses and will be taking on individual and group wedding dress projects.",
+            "A certificate will also be awarded"
+        ],
+        "ClassDetails": [
+            "This course is an advanced level course and recommended only to students who have a good knowledge of sewing and basic cutting methods.",
+            "Classes hold twice a week."
+        ],
+        "paymentPlans": {
+            "Full": "110,000",
+            "Installment": {
+                "fullPayment": "130,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦75,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦35,000",
+                        "duration": "first 5 weeks of training"
+                    }
+                ]
+            }
+        }
+    }
+]

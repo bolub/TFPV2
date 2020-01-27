@@ -1,0 +1,278 @@
+[
+    {
+        "id": "patternDrafting",
+        "Title": "Pattern Drafting",
+        "SubTitle": "Pattern Drafting teaches a 3-4 dimensional way to cut and gives the most perfect fit! Each piece is constructed according to the body shape of the individual and follows every curve needed to be accentuated and flattered.",
+        "Fee": "Per level",
+        "Duration": "Per level",
+        "Difficulty": "All levels",
+        "about": "Pattern Drafting is the international standard for cutting, in either couture, bespoke, ready to wear or mass production.",
+        "LearnOne": [],
+        "LearnTwo": [],
+        "Expectation": [],
+        "ClassDetails": {
+            "Details": [
+            "This course is recommended for those who want to get beyond home sewing and become professionals, or for those who are in love with the most perfect fit.",
+            "The class is perfect for you if you can cut and sew already using flat cutting/ free hand methods but you are looking to perfect cuts to achieve professional results.",
+            "This class only teaches how to cut, therefore you must have a good knowledge in sewing and sewing methods. You are not required to know how to cut, the class teaches all you need to know about constructing the pattern to fit the individuals and also cutting the fabrics and lining if applicable.",
+            "The classes are progressive, therefore we will only take you in for the advanced class if you have gone through the intermediate, intermediate class if you have gone through with beginners."
+            ],
+            "MaterialsNeeded":[
+                "Pattern Master",
+                "Scotch tape/ paper tape",
+                "Pattern Paper",
+                "Long transparent ruler",
+                "Dress pins",
+                "Fabric weights",
+                "Notebook",
+                "Pencil",
+                "Tape measure",
+                "Fabric scissors",
+                "Paper scissors"
+            ]
+        },
+
+        "paymentPlans": [
+            {
+                    "Title": "Level 1 Pattern Drafting",
+                    "Price": "₦52,500",
+                    "Duration": "6 weeks",
+                    "courseContent": [
+                        "Basic Skirt Block : All skirts, Straight Skirts, pencil skirts, Aline, skirts with Godet's, 4 pieces, 6 pieces, 8 pieces, 10 pieces, 12 pieces ,14 pieces and 16 pieces skirts, high waist skirts with band, etc.",
+                        "DressBlock : Shift dresses, Pencil dresses, A-line dresses, Circular dresses, Fit and flare dresses, Mermaid dresses, Dresses with godets.",
+                        "Bodice block : Peplum tops, Blouses, All blouses",
+                        "Basic sleeve block"
+                    ]
+            },
+
+            {
+               
+                    "Title": "Level 2 Pattern Drafting",
+                    "Price": "₦52,500",
+                    "Duration": "6 weeks",
+                    "courseContent": [
+                        "Jackets : All types of Jackets, Collars, Lapels, 2 Piece jacket sleeves",
+                        "Shirts: All shirts, Shirt Dresses, Collars, Shirt Sleeves",
+                        "Trousers :  Basic trouser block, All other types of trousers, Shorts, Skinny / Pencil trousers , Straight trousers, Leggings and tights, Wide leg pants, Pallazo pants",
+                        "Dart manipulation : Draped skirts, Draped kaftans and dresses, 6 Dart manipulation methods"
+                    ]
+                
+            },
+
+            {
+               
+                    "Title": "Full pattern drafting class",
+                    "Price": "₦95,000",
+                    "Duration": "12 weeks",
+                    "courseContent": [
+                        "The course includes all topics that are taught in Level 1 and Level 2 pattern drafting classes."
+                    ]
+                
+            }
+        ]
+        
+    },
+
+    {
+        "id": "flatCutting",
+        "Title": "Flat Cutting Course",
+        "SubTitle": "These classes teach an easy and fast way to cut and make clothes without having to draft patterns or work with industrial patterns.",
+        "Fee": "Per level",
+        "Duration": "Per level",
+        "Difficulty": "All levels",
+        "about": "Cutting done is 2 dimensional. This method is the most common and available method for most tailoring in Nigeria. Specific methods however differ from one person to another depending on methods that have been adopted and practiced by the person over years.",
+        "LearnOne": [],
+        "LearnTwo": [],
+        "Expectation": [],
+        "ClassDetails": {
+            "Details": [
+                "The classes are recommended for those who are willing to learn for personal and domestic purposes and not sure about pursuing a professional career in cloth/ dress making.",
+                "Many actually also use this method in dress making for friends, family and clients but the pattern drafting classes are recommended by us for those willing to go into business."
+            ],
+            "MaterialsNeeded": [
+                "A Sewing machine", 
+                "long transparent ruler", 
+                "dress pins, fabric weights", 
+                "notebook", 
+                "pencil", 
+                "tape measure", 
+                "sharp fabric scissors", 
+                "tailors chalk."
+            ]
+        },
+        "paymentPlans": [
+            {
+                "Title": "Beginners Class",
+                "Price": "₦37,500",
+                "Duration": "6 weeks",
+                "courseContent": [
+                    "All types of kaftans, abayas, tunic tops",
+                    "Using the sewing machines",
+                    "Shift dresses",
+                    "Kimono tops",
+                    "Simple Blouses",
+                    "Native Ankara and lace blouses",
+                    "Basic types of sleeves",
+                    "Taking measurements",
+                    "All basic types of skirts",
+                    "All basic types of skirts"
+                ]
+            },
+            {
+                "Title": "Level 2 Pattern Drafting",
+                "Price": "₦47,500",
+                "Duration": "6 weeks",
+                "courseContent": [
+                    "All other blouses and tops",
+                    "More native aso ebi styles",
+                    "Working with lace and Ankara fabrics",
+                    "Making a fitted dress",
+                    "All other types of dresses's",
+                    "The basic trousers",
+                    "Trousers with band and belt holes",
+                    "Pockets",
+                    "Necklines",
+                    "Size charts"
+                ]
+            },
+            {
+                "Title": "Advanced class",
+                "Price": "₦52,500",
+                "Duration": "6 weeks",
+                "courseContent": [
+                    "Shirts",
+                    "Jackets",
+                    "Working with collars",
+                    "Evening dresses",
+                    "Draping"
+                ]
+                
+            }
+        ]
+    },
+
+    {
+        "id": "fullFashion",
+        "Title": "Full Fashion Course",
+        "SubTitle": "This course gives an experience of all what we teach students at the fashion school. It covers everything we teach in the pattern drafting classes, some of the flat cutting classes and professional sewing techniques.",
+        "Fee": "Per level",
+        "Duration": "Per level",
+        "Difficulty": "All levels",
+        "about": "Cutting done is 2 dimensional. This method is the most common and available method for most tailoring in Nigeria. Specific methods however differ from one person to another depending on methods that have been adopted and practiced by the person over years.",
+        "LearnOne": [
+            "Free hand sketching",
+            "Fashion illustration",
+            "Fashion business classes",
+            "Starting your own fashion label",
+            "How to charge or bill clients"
+        ],
+        "LearnTwo": [
+            "Measurement guidelines",
+            "Different types of seams",
+            "Psychology of colors"
+        ],
+        "Expectation": [
+            "Students who go through with the full fashion course will also get a certificate on completion of the course and will receive guidance from us on preparing their first collections for their fashion label."
+        ],
+        "ClassDetails": {
+            "Details": [
+                "The classes are recommended for those who are willing to learn for personal and domestic purposes and not sure about pursuing a professional career in cloth/ dress making.",
+                "Many actually also use this method in dress making for friends, family and clients but the pattern drafting classes are recommended by us for those willing to go into business."
+            ],
+            "MaterialsNeeded": []
+        },
+        "paymentPlans": [
+            {
+                "Title": "Beginners Class",
+                "Price": "₦52,500",
+                "Duration": "10 weeks",
+                "courseContent": [
+                    "Iro and Buba",
+                    "all basic types of katans", 
+                    "simple blouses and tops",
+                    "skirts, pattern drafting methods", 
+                    "fashion theory classes",
+                    "how to use lining", 
+                    "so many other beginners level topics"
+                ]
+            },
+            {
+                "Title": "Intermediate Class",
+                "Price": "₦72,500",
+                "Duration": "10 weeks",
+                "courseContent": [
+                    "Dresses",
+                    "Blouses", 
+                    "Aso ebi", 
+                    "Lace and Ankara",
+                    "Working with different fabrics", 
+                    "Necklines",
+                    "Sleeves",
+                    "Pockets",
+                    "And so much more"
+                ]
+            },
+            {
+                "Title": "Advanced class",
+                "Price": "₦95,000",
+                "Duration": "30 weeks",
+                "courseContent": [
+                    "Dart manipulation", 
+                    "Draping",
+                    "Shirt making",
+                    "Jackets",
+                    "All types of trousers" ,
+                    "Creating a fashion collection"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "fullExperience",
+        "Title": "Full Experience Course",
+        "SubTitle": "This is a course designed for those who want to take on the fashion industry professionally and need more than just the videos and chats.",
+        "Fee": "₦295,000",
+        "Duration": "12 months",
+        "Difficulty": "All levels",
+        "about": "This course gives a full experience of all what we teach students at the fashion school. It covers all the topics in all our tfp classes plus a lot more. It is designed for those who want to take on the fashion industry professionally. We take the classes from the very beginning, taking our students through a complete and total fashion school experience. Students on the full fashion course also get to have live learning sessions with the Head teacher, Mrs Tolumi during the period of their course.",
+        "LearnOne": [],
+        "LearnTwo": [],
+        "Expectation": [
+            "The course includes weekly live classes, weekly monitoring and online support, weekly scoring on submissions, fashion illustration classes, fashion business meetings, and guidance on how to set up your brand after the course.",
+            "Students who go through with the full fashion course will also get a certificate on completion of the course and will receive guidance from us on preparing their first collections for their fashion label.",
+            "Students would have developed a professional portfolio and to be able to set up a standard fashion brand.",
+            "A Diploma certificate will be awarded at the end of the course."
+        ],
+        
+        "ClassDetails": null, 
+
+        "paymentPlans": {
+            "Full": "295,000",
+            "Installment": {
+                "fullPayment": "320,000",
+                "paymentLevels": [
+                    {
+                        "title": "1st payment",
+                        "amount": "₦120,000",
+                        "duration": "Start of the course"
+                    },
+                    {
+                        "title": "2nd payment",
+                        "amount": "₦100,000",
+                        "duration": "After 8 weeks"
+                    },
+                    {
+                        "title": "3rd payment",
+                        "amount": "₦100,000",
+                        "duration": "After 16 weeks"
+                    }
+                ]
+            }
+        }
+    }
+
+]
+
+
+
